@@ -1,3 +1,15 @@
-# Proyecto Final Python
+## Librerías externas
+- Typer
+- Rich
 
-Incluye buenas prácticas, módulo propio y JSON.
+## Entorno virtual
+Uso de venv para aislar dependencias y facilitar el trabajo colaborativo.
+
+## Instalación
+python -m venv venv
+pip install -r requirements.txt
+
+## Ejecución
+python main.py agregar "Ejemplo"
+python main.py listar
+python main.py completar 0
