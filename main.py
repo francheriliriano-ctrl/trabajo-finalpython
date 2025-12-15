@@ -11,3 +11,12 @@ def main():
 
 if __name__ == "__main__":
     main()
+from my_module import validar_texto, escribir_log
+
+nombre = input("Ingrese su nombre: ")
+
+if validar_texto(nombre):
+    escribir_log(f"Nombre ingresado: {nombre}")
+    print("Dato válido")
+else:
+    print("Dato inválido")
